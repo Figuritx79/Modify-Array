@@ -1,18 +1,12 @@
-## Getting Started
+## Modificar un arreglo :collision:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+En este proyecto se declara un arreglo de tipo double y se inicializa con 10 o mas posiciones. Una vez hecho lo anterior vamos a indicarle al usuario si lo quiere modificar o no. Si lo quiere modificar se le va a pedir que ingrese la posicion que quiere modificar y el valor que quiere ingresar en esa posicion. Si el usuario no quiere modificar el arreglo se le va a mostrar el arreglo tal cual esta.
 
-## Folder Structure
+## Estructura del proyecto
 
-The workspace contains two folders by default, where:
+Este poryecto contiene dos directorios por defecto:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`: En este directorio esta el codigo fuente del proyecto.
+- `lib`: En este directorio se mantienen las dependencias del proyecto.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Cuando compilas se crea un directorio llamado `bin` donde se almacena el archivo `.class`.
